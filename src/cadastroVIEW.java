@@ -166,7 +166,10 @@ public class cadastroVIEW extends javax.swing.JFrame {
         listagemVIEW listagem = new listagemVIEW(); 
         listagem.setVisible(true);
     }//GEN-LAST:event_btnProdutosActionPerformed
-
+    private void btnVendasActionPerformed(java.awt.event.ActionEvent evt) {
+        VendasVIEW vendas = new VendasVIEW(); 
+        vendas.setVisible(true);
+    }
     /**
      * @param args the command line arguments
      */
